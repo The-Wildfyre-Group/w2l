@@ -1,4 +1,4 @@
-class ApplicationController < ApplicationController
+class MainController < ApplicationController
 
 
   def index;end
