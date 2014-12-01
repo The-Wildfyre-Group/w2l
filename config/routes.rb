@@ -4,7 +4,11 @@ Rails.application.routes.draw do
 
   get '/frank' => 'main#frank'
 
-  get 'pages/home'
+  get '/home' => 'pages#home'
+
+  get '/frank_barham' => 'pages#frank_barham'
+
+  get '/the_ride' => 'pages#the_ride'
 
   get 'pages/about'
 
