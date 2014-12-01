@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   
   root 'main#index'
 
+  get '/frank' => 'main#frank'
+
   get 'pages/home'
 
   get 'pages/about'
