@@ -15,7 +15,7 @@ class PagesController < ApplicationController
   def team
   end
 
-   def sponsors
+   def support
   end
   
 end

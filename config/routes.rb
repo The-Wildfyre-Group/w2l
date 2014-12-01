@@ -2,24 +2,17 @@ Rails.application.routes.draw do
   
   root 'main#index'
 
-  get '/frank' => 'main#frank'
-
   get '/home' => 'pages#home'
 
-  get '/frank_barham' => 'pages#frank_barham'
+  get '/frank-barham' => 'pages#frank_barham'
 
-  get '/the_ride' => 'pages#the_ride'
+  get '/the-ride' => 'pages#the_ride'
 
-  get 'pages/about'
+  get '/about' => 'pages#about'
 
-  get 'pages/frank_barham'
+  get '/team' => 'pages#team'
 
-  get 'pages/the_ride'
-
-  get 'pages/team'
-
-  get 'pages/sponsors'
-
+  get '/support' => 'pages#support'
   
 
   # The priority is based upon order of creation: first created -> highest priority.
