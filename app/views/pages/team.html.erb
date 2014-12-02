@@ -1,62 +1,21 @@
         <style type="text/css">
-            section {
-                padding: 72px 0px;
-                background: #fff;
-                border-top: 5px solid #ff7f33;
-            }
-
-            .btn-hollow {
-            /*background: rgba(0,0,0, .25);*/
-            border: 2px solid #fff;
-            color: #fff;
-            }
-
-            .countdown {
-                text-align: center;
-                margin-top: 72px;
-                font-family: 'Oswald';
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-
-            .countdown-period {
-                font-size: 20px;
-                font-weight: 400;
-            }
-
-            .countdown-amount {
-                font-size: 100px;
-                margin-bottom: 10px;
-                font-weight: 500;
-            }
-
-            .countdown-section {
-                width: 25%;
-            }
-
-            ul.disc {list-style: disc; padding-left: 16px;}
-            ul.disc li {
-                font-size: 12px; 
-                font-weight: 600; 
-                word-spacing: -1px; 
-                line-height: 16px; 
-                margin: 6px 0;
-            }
-            .overlay:before {
-                background-color: #333333;
-                opacity: 0.75;
-                position: absolute;
-                content: '';
-                width: 100%;
-                height: 100%;
-                z-index: 1;
-                top: 0px;
-                }
-
             .image-with-text {
                 overflow: hidden;
                 position: relative;
                 height: 425px;
+            }
+        </style>
+        <style type="text/css">
+           .speaker-with-bio .speaker-description {
+                width: 75%;
+                float: left;
+                padding-left: 30px;
+            }
+
+            .speaker-with-bio .speaker {
+                width: 20%;
+                float: left;
+                margin-bottom: 0px;
             }
         </style> 
 <div class="main-container">
@@ -78,10 +37,10 @@
                     
                     <div class="row pt20">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                            <h3 class="text-white text-center mb10 bold">May 11th - 22th, 2015</h3>
-                            <h5 class="bold uppercase text-center block" style="color: #ff9f65;">
-                                302-mile - From georgia to savannah
-                            </p>
+                            <h2 class="text-white text-center mb10 upper gf_oswald normal ws3">May 2015</h2>
+                        <h5 class="bold uppercase text-center block ws2" style="color: #ff9f65;">
+                           one man. 302-miles. 14-days. a journey from georgia to savannah.
+                        </p>
                             <br/>
                             <br/>
                             <div class="countdown mt0" data-date="2015/03/25"></div>
@@ -97,22 +56,15 @@
 
     <a id="speakers" class="in-page-link"></a>
     
-    <section class="speakers duplicatable-content">
+    <section class="speakers duplicatable-content" style="background: #f5f5f5;">
     
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <h1>Speakers</h1>
-                </div>
-            </div><!--end of row-->
-            
-            <div class="row">
-        
                 <div class="col-md-6 col-sm-12">
-                    <div class="speaker-with-bio">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white">
                         <div class="speaker">
                             <div class="image-holder">
-                                <img class="background-image" alt="Speaker" src="images/gdrive/DSC_0017.jpg">
+                                <img class="background-image img-circle" alt="Speaker" src="images/gdrive/DancingOakhurst09182014.jpg" style="height: 120px; width: 95px;">
                                 <div class="hover-state text-center preserve3d">
                                     <div class="social-links vertical-align">
                                         <a href="#speakers"><i class="icon social_twitter"></i></a>
@@ -124,19 +76,24 @@
 
                         <div class="speaker-description">
                             <h2>Frank Barham</h2>
-                            <span class="sub">Founder</span>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            <span class="sub gf_oswald normal upper mt10 ws3 fs_12 ls1">Musician. Activist. Athlete.</span>
+                            <hr class="mt0"/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups.</p>
+                            <p class="gf_muli">
+                                A Journalism graduate from Howard University, Margaret applies her natural abilities in relationship building and strategic thinking to local and national projects for over a decade. Affiliations include GTM, National Black Arts Festival, SPARK Reproductive Justice, Atlanta Art Now, C4 Atlanta, SURREF and Banking with Borders. Through these experiences Margaret works with clients to leverage relationships and grow their brand by taking creative approaches to fundraising, hands-on learning, media education and business development.
                             </p>
+                            <hr/>
                         </div>
                     </div>
-                </div><!--end of individual speaker with bio-->
-                
+                </div>
+                <!--end of individual speaker with bio-->
+
                 <div class="col-md-6 col-sm-12">
-                    <div class="speaker-with-bio">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white">
                         <div class="speaker">
                             <div class="image-holder">
-                                <img class="background-image" alt="Speaker" src="images/gdrive/DSC_0017.jpg">
+                                <img class="background-image img-circle" alt="Speaker" src="http://www.iwondermediagroup.com/wp-content/uploads/2014/02/DSC_0958.jpg" style="height: 120px; width: 95px;">
                                 <div class="hover-state text-center preserve3d">
                                     <div class="social-links vertical-align">
                                         <a href="#speakers"><i class="icon social_twitter"></i></a>
@@ -148,64 +105,94 @@
 
                         <div class="speaker-description">
                             <h2>Margaret Kargbo</h2>
-                            <span class="sub">Wild Ideas Man</span>
-                            <p>
-                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups. 
+                             <span class="sub gf_oswald normal upper mt10 ws3 fs_12 ls1">Storyteller. Producer. Strategist.</span>
+                             <hr class="mt0"/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups.</p>
+                            <p class="gf_muli">
+                                A Journalism graduate from Howard University, Margaret applies her natural abilities in relationship building and strategic thinking to local and national projects for over a decade. Affiliations include GTM, National Black Arts Festival, SPARK Reproductive Justice, Atlanta Art Now, C4 Atlanta, SURREF and Banking with Borders. Through these experiences Margaret works with clients to leverage relationships and grow their brand by taking creative approaches to fundraising, hands-on learning, media education and business development.
                             </p>
+                            <hr/>
                         </div>
                     </div>
-                </div><!--end of individual speaker with bio-->
-                
-                <div class="col-md-6 col-sm-12">
-                    <div class="speaker-with-bio">
-                        <div class="speaker">
-                            <div class="image-holder">
-                                <img class="background-image" alt="Speaker" src="images/gdrive/DSC_0017.jpg">
-                                <div class="hover-state text-center preserve3d">
-                                    <div class="social-links vertical-align">
-                                        <a href="#speakers"><i class="icon social_twitter"></i></a>
-                                        <a href="#speakers"><i class="icon social_linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <!--end of individual speaker with bio-->
+            </div>
 
-                        <div class="speaker-description">
-                            <h2>Simon Sesz</h2>
-                            <span class="sub">CEO of WhoDat</span>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white">
+                        <div class="speaker-description pl10" style="width: 100%">
+                            <h2 class="fs_26">Wildfyre</h2>
+                            <span class="sub gf_oswald normal upper mt10 ws3 fs_12 ls1">design. tech. strategy.</span>
+                            <hr class="mt0"/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups.</p>
+                            <hr/>
                         </div>
                     </div>
-                </div><!--end of individual speaker with bio-->
-                
-                <div class="col-md-6 col-sm-12">
-                    <div class="speaker-with-bio">
-                        <div class="speaker">
-                            <div class="image-holder">
-                                <img class="background-image" alt="Speaker" src="images/gdrive/DSC_0017.jpg">
-                                <div class="hover-state text-center preserve3d">
-                                    <div class="social-links vertical-align">
-                                        <a href="#speakers"><i class="icon social_twitter"></i></a>
-                                        <a href="#speakers"><i class="icon social_linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <!--end of individual speaker with bio-->
 
-                        <div class="speaker-description">
-                            <h2>Pete Dunn</h2>
-                            <span class="sub">HR at CodeMogul</span>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
+                 <div class="col-md-4 col-sm-12">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white">
+                        <div class="speaker-description pl10" style="width: 100%">
+                            <h2 class="fs_26">Natasha</h2>
+                            <span class="sub gf_oswald normal upper mt10 ws3 fs_12 ls1">development associate</span>
+                            <hr class="mt0"/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups.</p>
+                            <hr/>
                         </div>
                     </div>
-                </div><!--end of individual speaker with bio-->
-        
-            </div><!--end of row-->
-            
+                </div>
+                <!--end of individual speaker with bio-->
+
+                 <div class="col-md-4 col-sm-12">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white">
+                        <div class="speaker-description pl10" style="width: 100%">
+                            <h2 class="fs_26">Mollie Taylor</h2>
+                            <span class="sub gf_oswald normal upper mt10 ws3 fs_12 ls1">web visualization consultant</span>
+                            <hr class="mt0"/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+                <!--end of individual speaker with bio-->
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white">
+                        <div class="speaker-description pl10" style="width: 100%">
+                            <h2 class="fs_26">The Horne Brothers</h2>
+                            <span class="sub gf_oswald normal upper mt10 ws3 fs_12 ls1">film. content. production.</span>
+                            <hr class="mt0"/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services, iWonder Media offers PR/marketing, business development, event and professional organizing to a mix of corporate, nonprofit and charitable groups.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+                <!--end of individual speaker with bio-->
+
+                <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="speaker-with-bio box-shadow-ccc p30 bgcolor-white" style="width: 100%; border: 5px solid #ff7f33;">
+                        <div class="speaker-description pl10" style="width: 100%;">
+                            <hr/>
+                            <h2 class="fs_26 bold">JOIN OUR TEAM</h2>
+                            <br/>
+                            <p class="gf_muli">
+                                Margaret Kargbo is CEO & Founder of iWonder Media Group. Specializing in project management and client services.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+                <!--end of individual speaker with bio-->
+            </div>
             
         </div><!--end of container-->
     

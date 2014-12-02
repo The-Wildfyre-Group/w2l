@@ -4,8 +4,10 @@
 .va-sub {vertical-align: sub;}
 .inline-block {display: block !important;}
 .block {display: block !important;}
+
 .inline-block {display: inline-block !important;}
 .capitalize {text-transform: capitalize;}
+.lowercase {text-transform: lowercase;}
 .center {margin-left: auto; margin-right: auto; display: table;}
 
 
@@ -13,8 +15,6 @@
 .normal    {font-weight: 400 !important;}
 .semi-bold {font-weight: 500 !important;}
 .bold 	   {font-weight: 700 !important;}
-
-
 
 .text-white {color: #fff !important;}
 .text-black {color: #000;}
