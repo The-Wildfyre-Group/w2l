@@ -11,7 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
- gem 'therubyracer',  platforms: :ruby
+gem 'therubyracer',  platforms: :ruby
 
  #for user slugs
  gem 'friendly_id'
@@ -21,7 +21,7 @@ gem 'coffee-rails', '~> 4.0.0'
  gem "fog"
 
  #gems needed for Heroku
- gem 'pg', group: :production
+ #gem 'pg', group: :production
  gem 'rails_12factor', group: :production
 
  # Use jquery as the JavaScript library
