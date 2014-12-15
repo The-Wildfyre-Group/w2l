@@ -14,18 +14,18 @@
     }
 
     .countdown-period {
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 400;
     }
 
     .countdown-amount {
-        font-size: 60px;
-        margin-bottom: 10px;
+        font-size: 40px;
+        margin-bottom: 15px;
         font-weight: 500;
     }
 
     .countdown-section {
-        width: 15%;
+        width: 22%;
     }
 
     ul.disc {list-style: disc; padding-left: 16px;}
@@ -63,7 +63,7 @@
         border-color: #e5e5e5;
     }
 
-    .text-seperator h3 {
+    .text-seperator h2 {
         position: relative;
         background: #fff;
         top: -18px;
@@ -73,6 +73,15 @@
         margin: 0;
         text-transform: uppercase;
         letter-spacing: 0;
+        font-size: 26px;
+    }
+
+    .overlay {background-color: #000000;}
+
+    .image-with-text {
+        overflow: hidden;
+        position: relative;
+        height: 780px;
     }
 </style> 
 
@@ -80,9 +89,9 @@
 
 <!-- Header -->
 <section class="image-with-text background-dark preserve-3d">
-    <div class="background-image-holder">
+    <div class="background-image-holder" style="background-position: -50% 50% !important;">
         <img class="background-image" alt="About Image" src="/images/gdrive/BrazilDayPlayingHarp2014HiRes.jpg">
-        <div class="container vertical-align" style="z-index: 2; top: 60%;">
+        <div class="container vertical-align" style="z-index: 2; top: 40%;">
             <div class="row">
                 <div class="col-md-5 col-sm-7">
                     <!-- <h1 class="bold text-white">WHEEL 2 LIVE</h1>
@@ -94,16 +103,33 @@
                 <br/>
                 <br/>
                 <br/>
-                <div class="row pt60">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <h2 class="text-white text-center mb10 upper gf_oswald normal ws3">May 11-25, 2015</h2>
-                        <h5 class="bold uppercase text-center block ws2" style="color: #ff9f65;">
-                           A journey from atlanta to savannah.
-                        </p>
-                        <div class="countdown mt0" data-date="2015/05/11"></div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4 class="gf_oswald semi-bold uppercase block ws2 mb20 text-highlight">
+                            A tour for disability awareness
+                        </h4>
+                        <h1 class="text-white fs_30 lh_40 gf_droid-serif mb30">
+                           Support Frank Barham as he shares good music, raises funds for wheelchairs donations, and celebrates the American Disabilities Act by journeying 302-miles by wheelchair.
+                        </h1>
+                        <a href="#" class="btn">Dontate today</a>
+                        <a href="#tour" class="btn btn-hollow">Learn More</a>
                     </div>
                 </div>
-            </div><!--end of row-->
+            </div>
+        </div>
+        <div class="container vertical-align" style="z-index: 2; top: 42%; right: 0%;">
+                <div class="row">
+                    <div class="pull-right">
+                         <h3 class="mb10 gf_oswald semi-bold uppercase block ws2 text-white text-center">
+                            wheel 2 live countdown
+                        </h3>
+                        <h6 class="gf_oswald semi-bold uppercase block ws2 text-highlight text-center">
+                            from atlanta to savannah -- May 11-25, 2015
+                        </h6>
+                        <div class="countdown m20" data-date="2015/05/11"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="go-right side-image col-sm-4 col-md-6">
         </div><!--end of container-->
@@ -112,145 +138,88 @@
 </section>
 
 
-
-<section class="topics duplicatable-content pb60 box-shadow-ccc">
+<section class="topics duplicatable-content pb60">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="">
-                    <!-- <h6 class="gf_muli ws0 bold pb10 text-blue upper">#WHEEL2LIVE</h6> -->
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div style="margin-right: 1.5%; margin-left: 1.5%;">
-                                <div class="topic mb0">
-                                    <h2 class="semi-bold gf_oswald ws2 upper mb20 fs_24">
-                                     A 302-mile journey for ADVOCACY
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div style="margin-right: 1.5%; margin-left: 1.5%;">
+                            <div class="topic mb0">
+                                <h2 class="semi-bold gf_oswald ws2 upper mb30 fs_24 text-black">
+                                 one man, one journey
+                                </h2>
+                                <h4 class="gf_droid-serif lh_28">We invite you to support and join Frank Barham on a 302-mile from atlanta to savannah journey to inspire.</h4>
+                                <p class="gf_droid-serif mt20 lh_26 fs_14">
+                                     WHEEL 2 LIVE is one man’s journey to share good music, raise funds for those needing wheelchairs while highlighting the public on the benefits of the Americans with Disabilities Act during its 25th national anniversary. Raise funds for those needing wheelchairs while highlighting the public on the benefits of the Americans with Disabilities Act during its 25th 
+                                </p>
+                                <!-- <p class="">
+                                    <a href="#" class="bold">Volunteer or donate today 
+                                        <span class="fa fa-long-arrow-right ml5"></span>
+                                    </a>
+                                </p> -->
+                            </div>
+                        </div><!--end of individual topic-->
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="topic mb0">
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <h2 class="semi-bold gf_oswald ws2 upper fs_20">
+                                     our mission
                                     </h2>
                                     <hr/>
-                                    <h3 class="gf_droid-serif">We invite you to support and join Frank Barham on a 302-mile from atlanta to savannah journey to inspire.</h5>
-                                    <p class="gf_droid-serif fs_16 text-black mt10 lh_26">
-                                         WHEEL 2 LIVE is one man’s journey to share good music, raise funds for those needing wheelchairs while highlighting the public on the benefits of the Americans with Disabilities Act during its 25th national anniversary.
-                                    </p>
+                                    <img src="/images/frank.jpg" class="" style="height: 90px; width: 100%;" />
+                                     <blockquote class="no-padding mb20">
+                                        <p class="pl10 gf_droid-serif fs_14 lh_22 mt30 mb0 bold">
+                                          Our mission is to provide free wheel chairs to those who cannot afford them.
+                                        </p>
+                                     </blockquote>
                                 </div>
-                            </div><!--end of individual topic-->
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="topic mb0">
+                            <h2 class="semi-bold gf_oswald ws2 upper fs_20">
+                                support us
+                            </h2>
+                            <hr/>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img src="http://ecx.images-amazon.com/images/I/51szEiWDWWL._SL500_AA280_.jpg" class=""/>
+                                </div>
+                                <div class="col-md-7 text-right">
+                                    <h5 class="bold">
+                                        <a href="http://www.cdbaby.com/cd/frankbarhambrazilianfusi">
+                                            <span class="fa fa-music mr10"></span> Buy Album Now
+                                        </a>
+                                    </h5>
+                                    <h4 class="bold mt10"><em>Levitating</em></h4>
+                                    <h5 class="semi-bold mt5 lh_18">Frank Barham and Brazilian Fusion</h5>
+                                </div>
+                            </div>
+                            
+                            <hr/>
 
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <div class="topic mb0 well bgcolor-light-grey no-padding">
-                                <h5 class="semi-bold gf_oswald upper pt15 pb15 mb10 bgcolor-white"> 
-                                    <span class="" style="color: #000">our mission</span>
-                                </h5>
-                                <h2 class="semi-bold gf_oswald ws2 upper mb10 fs_24 lh_32 pr30 pl30" 
-                                style="color: #ff7f33;">
-                                  "TO PROVIDE free WHEELCHAIRS TO THOSE who cannot afford them"
-                                </h2>
-                                <div class="bgcolor-white pt20 pb20">
-                                    <a href="#" class="btn gf_oswald upper normal fs_14 ws2">
-                                        click here to donate
+                            <div class="bgcolor-white pb20">
+                                <!-- <p class="gf_droid-serif fs_14 lh_22 mb20">
+                                 Your donation will go toward making Wheel 2 Live a reality and purchasing a new wheelchair for someone!
+                                </p> -->
+                                <div class="">
+                                    <a href="#" class="btn btn-block gf_oswald upper normal fs_14 ws2 fs_16">
+                                        make a donation today!
                                     </a>
                                 </div>
+                                </hr>
                             </div>
-                        </div><!--end of individual topic-->
-
-                        <div class="col-md-3 col-sm-6 text-right mt20">
-                            <h4 class="semi-bold gf_oswald ws2 upper mb20">
-                                <span class="fa fa-calendar mr5"></span> Upcoming Events
-                            </h4>
-                            <br/>
-                            <h6>What: Topic: "Disability Rights and Wrongs"</h6>
-                            <p>Please click here for a list of the readings</p>
-                            <p>Who: Discussion lead by Dr. Florian Kuippis</p>
-                            <p>When: Monday, December 1, 2014, 4:30-6pm, Tarbutton Hall, Room 104</p>
-                            </p>Access: For ADA accommodation requests, please contact Access, Disability Services and Resources at (404) 727-9877 (voice) or (404) 712-2049 (TDD).</p>
-                            <div class="topic">
-                                <p class="gf_droid-serif text-black fs_14 mt10">
-                                   
-                                </p>
-                            </div>
-                        </div><!--end of individual topic-->
-                        
+                        </div>
                     </div>
                 </div>
-            </div><!--end of row-->
+            </div>
         </div>
-    </div><!--end of container-->
-</section>
-
-
-
-<section class="contact-tweets background-dark">
-    <div class="map-holder col-md-12 col-sm-4">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d3349589.3701533973!2d-85.58790732241663!3d34.92944603454404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e1!4m5!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C+GA!3m2!1d33.7489954!2d-84.3879824!4m5!1s0x88fb75fc78f20659%3A0x4e0c6751036020bc!2sSavannah%2C+GA!3m2!1d32.0835407!2d-81.09983419999999!5e0!3m2!1sen!2sus!4v1416272534796" width="600" height="450" frameborder="0" style="border:0"></iframe>
     </div>
 </section>
-
-<section class="topics duplicatable-content pb60 pt20">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="">
-                    <div class="p20" style="padding: 0 20px;">
-                        <div class="text-seperator">
-                            <h3 class="semi-bold gf_oswald ws2 upper mb60">A mutli-disciplinary tour for awarness</h3>
-                        </div>
-                    </div>
-                    <!-- <h6 class="gf_muli ws0 bold pb10 text-blue upper">#WHEEL2LIVE</h6> -->
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p20" style="padding: 20px;">
-                                <div class="topic mb0">
-                                    <div class="img-h" style="height: 200px; position: relative; ">
-                                        <img src="/images/gdrive/F Barham Hi-Res-6200.jpg" class="img-responsive" style="width: 100%; height: 100%;position: relative; overflow: hidden;">
-                                    </div>
-                                    <h3 class="semi-bold gf_oswald ws2 upper mb0 mt30">
-                                        <!-- <span class="gf_oswald normal upper text-blue fs_14 mr5">#inspire</span> -->
-                                        a 302-mile journey
-                                    </h3>
-                                    <p class="gf_droid-serif text-black fs_14 mt10">
-                                        Frank Barham will embark on an ultra-distance wheelchair marathon from Atlanta to Savannah, to be completed over 14-days.
-                                    </p>
-                                </div>
-                            </div><!--end of individual topic-->
-                        </div>
-                        
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p20" style="padding: 20px;">
-                                <div class="topic mb0">
-                                    <div class="img-h" style="height: 200px; position: relative; ">
-                                        <img src="/images/gdrive/OakhurstGrooving09182014.jpg" class="img-responsive" style="width: 100%; height: 100%; position: relative; overflow: hidden;">
-                                    </div>
-                                    <h3 class="semi-bold gf_oswald ws2 upper mb0 mt30">
-                                        <!-- <span class="gf_oswald normal upper fs_14 text-blue mr5">#engage</span> -->
-                                    a musical tour</h3>
-                                    <p class="gf_droid-serif text-black fs_14 mt10">
-                                        At venues along the route, Frank will perform music from his newly released CD, <em>Levitating,</em> with band, Brazilian Fusion.
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!--end of individual topic-->
-                        
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p20" style="padding: 20px;">
-                                <div class="topic mb0">
-                                    <div class="img-h" style="height: 200px; position: relative; ">
-                                        <img src="/images/gdrive/DSC_0123.jpg" class="img-responsive" style="width: 100%; height: 100%; position: relative; overflow: hidden;">
-                                    </div>
-                                    <h3 class="semi-bold gf_oswald ws2 upper mb0 mt30">
-                                        <!-- <span class="gf_oswald normal upper fs_14 text-blue mr5">#advocate</span> -->
-                                        A CAMPAIGN FOR AWARENESS</h3>
-                                    <p class="gf_droid-serif text-black fs_14 mt10">
-                                    Various civic and community events will be planned in recognition of the 25th anniversary of the Americans with Disabilities Act (ADA). 
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!--end of individual topic-->
-                    </div>
-                </div>
-            </div><!--end of row-->
-        </div>
-    </div><!--end of container-->
-</section>
-
 
 
 <section class="instagram preserve-3d gallery-header">
@@ -262,7 +231,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 text-center">
                 <h2>
-                    <span class="text-white semi-bold lh_36 fs_28 gf_droid-serif">
+                    <span class="text-white semi-bold lh_36 fs_26 gf_droid-serif">
                         “I’ve been wanting to do a big marathon for a long time. What’s most important about this journey is that I’m not competing against others but rather, I’m competing against myself. It’s about doing something that seems impossible. I’m ready to push it to the limit.” 
                     </span>
                 </h2>
@@ -272,6 +241,150 @@
         </div><!--end of row-->
     </div><!--end of container-->
 </section>
+
+
+
+<section id="tour" class="topics duplicatable-content pb60 pt20">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="">
+                    <div class="p20" style="padding: 0 20px;">
+                        <div class="text-seperator">
+                            <h2 class="semi-bold gf_oswald ws3 upper mb60">A mutli-disciplinary tour</h2>
+                        </div>
+                    </div>
+                    <!-- <h6 class="gf_muli ws0 bold pb10 text-blue upper">#WHEEL2LIVE</h6> -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p20" style="padding: 20px;">
+                                <div class="topic mb0">
+                                    <div class="img-h" style="height: 200px; position: relative; ">
+                                        <img src="/images/gdrive/F Barham Hi-Res-6200.jpg" class="img-responsive" style="width: 100%; height: 100%;position: relative; overflow: hidden;">
+                                    </div>
+                                    <h4 class="semi-bold gf_oswald ws2 upper mb0 mt30">
+                                        <!-- <span class="gf_oswald normal upper text-blue fs_14 mr5">#inspire</span> -->
+                                        a 302-mile journey
+                                    </h4>
+                                    <p class="gf_droid-serif fs_14 mt10">
+                                        Frank Barham will embark on an ultra-distance wheelchair marathon from Atlanta to Savannah, to be completed over 14-days.
+                                    </p>
+                                    <p>
+                                        <a href="/the-ride">View the Ride
+                                            <span class="fa fa-long-arrow-right ml5"></span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div><!--end of individual topic-->
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p20" style="padding: 20px;">
+                                <div class="topic mb0">
+                                    <div class="img-h" style="height: 200px; position: relative; ">
+                                        <img src="/images/gdrive/OakhurstGrooving09182014.jpg" class="img-responsive" style="width: 100%; height: 100%; position: relative; overflow: hidden;">
+                                    </div>
+                                    <h4 class="semi-bold gf_oswald ws2 upper mb0 mt30">
+                                        <!-- <span class="gf_oswald normal upper fs_14 text-blue mr5">#engage</span> -->
+                                    a musical tour</h4>
+                                    <p class="gf_droid-serif fs_14 mt10">
+                                        At venues along the route, Frank will perform music from his newly released CD, <em>Levitating,</em> with band, Brazilian Fusion.
+                                    </p>
+                                    <p>
+                                        <a href="/frank-barham">Meet Frank Barham
+                                            <span class="fa fa-long-arrow-right ml5"></span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end of individual topic-->
+                        
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p20" style="padding: 20px;">
+                                <div class="topic mb0">
+                                    <div class="img-h" style="height: 200px; position: relative; ">
+                                        <img src="/images/gdrive/DSC_0123.jpg" class="img-responsive" style="width: 100%; height: 100%; position: relative; overflow: hidden;">
+                                    </div>
+                                    <h4 class="semi-bold gf_oswald ws2 upper mb0 mt30">
+                                        <!-- <span class="gf_oswald normal upper fs_14 text-blue mr5">#advocate</span> -->
+                                        A CAMPAIGN FOR AWARENESS</h4>
+                                    <p class="gf_droid-serif fs_14 mt10">
+                                    Various civic and community events will be planned in recognition of the 25th anniversary of the Americans with Disabilities Act (ADA). 
+                                    </p>
+                                    <p>
+                                        <a href="/support">Support our Cause 
+                                            <span class="fa fa-long-arrow-right ml5"></span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end of individual topic-->
+                    </div>
+                </div>
+            </div><!--end of row-->
+        </div>
+    </div><!--end of container-->
+</section>
+
+
+<section class="contact-tweets background-dark">
+    <div class="map-holder col-md-12 col-sm-4">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d3349589.3701533973!2d-85.58790732241663!3d34.92944603454404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e1!4m5!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C+GA!3m2!1d33.7489954!2d-84.3879824!4m5!1s0x88fb75fc78f20659%3A0x4e0c6751036020bc!2sSavannah%2C+GA!3m2!1d32.0835407!2d-81.09983419999999!5e0!3m2!1sen!2sus!4v1416272534796" width="600" height="450" frameborder="0" style="border:0"></iframe>
+    </div>
+ 
+    <div class="overlay"  style="opacity: .0"></div>
+</section>
+
+<section class="duplicatable-content">
+    <div class="container">
+        <hr class="mt0"/>
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class=" bold ws2 mb0 gf_oswald" style="font-size: 45px; line-height: 50px;">
+                    RAISING AWARENESS <br/><span class="text-highlight">BY</span>
+                    EMBRACING THE POSSIBILITIES
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-block gf_oswald upper normal fs_14 ws2 fs_16">
+                    make a donation today!
+                </a>
+                <p class="text-center mt20">
+                    <a href="#" class="capitalize">
+                        Interested in Sponsoring Us? Click Here.
+                        <span class="fa fa-rigth-arrow"></span>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <hr />
+    </div><!--end of container-->
+</section>
+
+<section class="instagram preserve-3d gallery-header">
+    <div class="instafeed" data-user-name="wheel2live">
+        <ul></ul>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 text-center">
+                <h2>
+                    <span class="text-white semi-bold lh_36 fs_26 gf_droid-serif">
+                        “I’ve been wanting to do a big marathon for a long time. What’s most important about this journey is that I’m not competing against others but rather, I’m competing against myself. It’s about doing something that seems impossible. I’m ready to push it to the limit.” 
+                    </span>
+                </h2>
+                <br/>
+                <h1 class="gf_oswald upper text-white">FRANK BARHAM</h1>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container-->
+</section>
+
+
+
+
+
 
 
 

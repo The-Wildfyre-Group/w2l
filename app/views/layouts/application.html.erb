@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>W2L</title>
+  <title>Wheel 2 Live</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= google_webfonts_link_tag "Droid Sans", "Oswald", "Droid Serif", "Muli" %>
+  <%= google_webfonts_link_tag "Droid Sans", "Oswald", "Droid Serif", "Muli", "Yanone Kaffeesatz
+", "Roboto Condensed", "Open Sans Condensed", "PT Sans Narrow" , "BenchNine" %>
   
   <%= csrf_meta_tags %>
+    <!-- Google Font Library -->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Google Font Library -->
 
-          <!-- Google Font Library -->
-	    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
-	    <!-- Google Font Library -->
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/theme-hot.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/base.css" rel="stylesheet" type="text/css" media="all"/>
 
-        
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/theme-hot.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/base.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        section {
+            padding: 72px 0px;
+            background: #fff;
+            border-top: 2px solid #ff7f33;
+        }
 
+        .btn {
+	        font-family: 'Oswald';
+	        text-transform: uppercase;
+	        font-weight: 400;
+        }
 
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        .btn + .btn {margin-left: 10px;}
 
-        <style type="text/css">
-            section {
-                padding: 72px 0px;
-                background: #fff;
-                border-top: 2px solid #ff7f33;
-            }
+        .btn-hollow {
+	        border: 2px solid #fff;
+	        color: #fff;
+	        font-family: 'Oswald';
+	        text-transform: uppercase;
+	        font-weight: 400;
+        }
 
-            .btn-hollow {
-            /*background: rgba(0,0,0, .25);*/
-          /*  border: 2px solid #fff;
-            color: #fff;*/
-            }
+        .countdown {
+            text-align: center;
+            margin-top: 72px;
+            font-family: 'Oswald';
+            text-transform: uppercase;
+            font-weight: 700;
+        }
 
-            .countdown {
-                text-align: center;
-                margin-top: 72px;
-                font-family: 'Oswald';
-                text-transform: uppercase;
-                font-weight: 700;
-            }
+        .countdown-period {
+            font-size: 20px;
+            font-weight: 400;
+        }
 
-            .countdown-period {
-                font-size: 20px;
-                font-weight: 400;
-            }
+        .countdown-amount {
+            font-size: 100px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
 
-            .countdown-amount {
-                font-size: 100px;
-                margin-bottom: 10px;
-                font-weight: 500;
-            }
+        .countdown-section {
+            width: 25%;
+        }
 
-            .countdown-section {
-                width: 25%;
-            }
-
-            ul.disc {list-style: disc; padding-left: 16px;}
-            ul.disc li {
-            	font-size: 12px; 
-            	font-weight: 600; 
-            	word-spacing: -1px; 
-            	line-height: 16px; 
-            	margin: 6px 0;
-            }
-            .overlay:before {
-				background-color: #333333;
-				opacity: 0.75;
-				position: absolute;
-				content: '';
-				width: 100%;
-				height: 100%;
-				z-index: 1;
-				top: 0px;
-				}
-			
-			ul.menu li {font-family: 'Oswald'; font-weight: normal; text-transform: uppercase; font-size: 14px;}
-
-			.menu li {
-			top: 0;
+        ul.disc {list-style: disc; padding-left: 16px;}
+        ul.disc li {
+        	font-size: 12px; 
+        	font-weight: 600; 
+        	word-spacing: -1px; 
+        	line-height: 16px; 
+        	margin: 6px 0;
+        }
+        .overlay:before {
+			background-color: #333333;
+			opacity: 0.75;
+			position: absolute;
+			content: '';
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			top: 0px;
 			}
-		</style> 
+		
+		ul.menu li {font-family: 'Oswald'; font-weight: normal; text-transform: uppercase; font-size: 14px;}
 
-    </head>
+		.menu li {
+		top: 0;
+		}
+
+		.text-highlight {color: #ff7f33;}
+	</style> 
+</head>
 
     <body>
 
@@ -123,7 +132,6 @@
 								
 							</a>
 						</div>
-				
 						<div class="col-md-10 text-right">
 							<ul class="menu">
 								<li>
@@ -141,14 +149,16 @@
 								<!-- <li>
 									<a class="inner-link" href="/press">press</a>
 								</li>
-								 --><li>
+								 -->
+								 <li>
 									<a class="inner-link" href="/team">team</a>
 								</li>
-								
-
-								<li class="social-link"><a href="#"><i class="icon social_twitter"></i></a></li>
-								<li class="social-link"><a href="#"><i class="icon social_facebook"></i></a></li>
-								<li class="social-link instagram-toggle"><a href="#" class="instagram-toggle-init"><i class="icon social_instagram"></i></a></li>
+								<li class="social-link"><a href="#"><i class="icon social_twitter"></i></a>
+								</li>
+								<li class="social-link"><a href="#"><i class="icon social_facebook"></i></a>
+								</li>
+								<li class="social-link instagram-toggle"><a href="#" class="instagram-toggle-init"><i class="icon social_instagram"></i></a>
+								</li>
 							</ul>
 							<div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
 							<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
