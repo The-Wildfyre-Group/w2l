@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get '/team' => 'pages#team'
 
   get '/support' => 'pages#support'
+
+  get '/press' => 'pages#press'
   
 
   # The priority is based upon order of creation: first created -> highest priority.

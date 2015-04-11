@@ -15,7 +15,10 @@ class PagesController < ApplicationController
   def team
   end
 
-   def support
+  def support
+  end
+
+  def press
   end
   
 end
