@@ -20,5 +20,8 @@ class PagesController < ApplicationController
 
   def press
   end
+
+  def main
+  end
   
 end
